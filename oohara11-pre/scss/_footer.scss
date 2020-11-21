@@ -1,0 +1,65 @@
+.footer{
+    width: 100vw;
+    height: 34.2rem;
+}
+
+.footer-border {
+    display: inline-block;
+    content: "";
+    border-bottom: 1px solid #70707036;
+    width: 80%;
+    margin: 16.45rem  10.65rem 0 12.75rem;
+    @include tab {
+        // width: 33rem;
+        margin: 6.35rem 1.95rem 6.05rem 4.95rem;
+    }
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8.35rem 0 6.2rem 0;
+    @include tab {
+        flex-direction: column-reverse;
+    }
+}
+.footer-wrap__intro {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    @include tab {
+        margin:6.2rem 2rem  1.9rem 2rem;
+    }
+}
+.footer-title {
+    font-size: 3.2rem;
+    color: #7070704D;
+    margin:0 1.7rem 0 10.3rem;
+    letter-spacing: 0.32rem;
+    @include tab {
+        margin:initial;
+        font-size: 1.8rem;
+        margin-right: 8.8rem;
+    }
+    }
+.footer-logo-item {
+        font-size: 2rem;
+        color: initial;
+        margin: 0.8rem 0 1rem 0.9rem;
+        @include tab {
+            margin: 0.8rem 0 1rem 1rem;
+        }
+}
+
+.footer-text {
+    font-family: Roboto Mono for Powerline;
+    font-size: 1.8rem;
+    padding:1.0rem 4.1rem 0.9rem 4.1rem;
+    border: 1px solid #707070;
+    margin-right: 11.3rem;
+    @include tab {
+        padding:1.2rem 4.1rem 1.1rem 4.1rem;
+        margin-right: initial;
+    }
+}
